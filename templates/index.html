@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web calc</title>
+<link rel="stylesheet" type="text/css" href="/static/styles.css">
+<script src="/static/script.js"></script>
+</head>
+
+<body>
+<div id="container">
+    <input type="hidden" id="operation" value=""/>
+    <input type="text" id="answer" value="" disabled="disabled" name="expression"/>
+    <input type="text" id="mem" value="" disabled="disabled"/>
+    <input type="text" id="memory" value="" disabled="disabled"/>
+    <input type="button" class="button" value="MC" id="MC" onclick="MC()"/>
+    <input type="button" class="button" value="MR" id="MR" onclick="MR()"/>
+    <input type="button" class="button" value="MS" id="MS" onclick="MS()"/>
+    <input type="button" class="button" value="M+" id="Mplus" onclick="Mplus()"/>
+    <input type="button" class="button" value="M-" id="Mminus" onclick="Mminus()"/>
+    <input type="button" class="button" value="±" id="plusminus" onclick="plus_minus()"/>
+    <input type="button" class="button" value="+" id="plus" onclick="v('+')"/>
+    <input type="button" class="button" value="-" id="subtract" onclick="v('-')"/>
+    <input type="button" class="button" value="*" id="product" onclick="v('*')"/>
+    <input type="button" class="button" value="/" id="divide" onclick="v('/')"/>
+    <input type="button" class="button" value="1" id="1" onclick="v('1')"/>
+    <input type="button" class="button" value="2" id="2" onclick="v('2')"/>
+    <input type="button" class="button" value="3" id="3" onclick="v('3')"/>
+    <input type="button" class="button" value="4" id="4" onclick="v('4')"/>
+    <input type="button" class="button" value="^" id="raising" onclick="raising2()"/>
+    <input type="button" class="button" value="5" id="5" onclick="v('5')"/>
+    <input type="button" class="button" value="6" id="6" onclick="v('6')"/>
+    <input type="button" class="button" value="7" id="7" onclick="v('7')"/>
+    <input type="button" class="button" value="8" id="8" onclick="v('8')"/>
+    <input type="button" class="button" value="←" id="slice" onclick="sl()"/>
+    <input type="button" class="button" value="9" id="9" onclick="v('9')"/>
+    <input type="button" class="button" value="0" id="0" onclick="v('0')"/>
+    <input type="button" class="button" value="C" id="C" onclick="c()"/>
+    <input type="button" class="button" value="," id="decimalpoint" onclick="dp()"/>
+    <input type="button" class="button" value="=" id="equals" onclick="result()"/>
+    <div style="clear:both;"></div>
+</div>
+</body>
+</html>
