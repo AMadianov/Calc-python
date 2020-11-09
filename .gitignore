@@ -1,5 +1,6 @@
 # Created by https://www.gitignore.io/api/eclipse
 # Alessandro #
+
 ### Farukshin Amir ###
 __pycache__
 
@@ -64,3 +65,4 @@ local.properties
 .idea/modules.xml
 .idea/workspace.xml
 .idea/vcs.xml
+.idea/
